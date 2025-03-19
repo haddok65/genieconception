@@ -1,4 +1,4 @@
-fvar quizData = [];
+var quizData = [];
 const quizDataEn = [
   {
     question: 'What is the capital of France?',
