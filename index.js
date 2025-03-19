@@ -109,7 +109,7 @@ const quizDataFr = [
     answer: 'Elles réduisent les émissions à gaz à effet de serre',
   },
   {
-    question: 'Qu'est-ce que nous pouvons faire pour réduire la consommation d'énergie à la maison?',
+    question: 'Qu’est-ce que nous pouvons faire pour réduire la consommation d’énergie à la maison?',
     options: [
       'Ouvrir la fenêtre quand le chauffage est allumé ',
       'Éteindre les appareils quand on ne les utilise pas',
@@ -132,7 +132,7 @@ const quizDataFr = [
     question: 'Qu’elle est la source d’énergie non renouvelable?',
     options: [
       'Le vent',
-      'L’eau ',
+      'L’eau',
       'Le charbon',
       'Le soleil'
     ],
@@ -149,12 +149,11 @@ const quizDataFr = [
     answer: 'À produire de l’énergie ',
   },
   {
-    question: 'Parmi les options suivantes choisir la bonne réponse :
-       Une dynamo à manivelle transforme l’énergie (a) en énergie (b) ',
+    question: 'Une dynamo à manivelle transforme l’énergie (a) en énergie (b) ',
     options: [
       '(a) Mécanique, (b) Électrique ',
       '(a) Thermique, (b) Mécanique ',
-      '(a) Électrique, (b) Chimique  ',
+      '(a) Électrique, (b) Chimique',
       '(a) Mécanique, (b) Thermique'
     ],
     answer: '(a) Mécanique, (b) Électrique',
@@ -173,8 +172,8 @@ const quizDataFr = [
     question: 'Dans le principe de fonctionnement d’une dynamo à manivelle, l’élément qui produit l’énergie est : ',
     options: [
       'Un mouvement linéaire (en ligne droite)',
-      'Un mouvement rotatif (en tournant)  ',
-      'Un mouvement vertical (de haut en bas)  ',
+      'Un mouvement rotatif (en tournant)',
+      'Un mouvement vertical (de haut en bas)',
       'Un mouvement statique (sans bouger)'
     ],
     answer: 'Un mouvement rotatif (en tournant)',
