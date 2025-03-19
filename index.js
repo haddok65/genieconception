@@ -129,10 +129,10 @@ const quizDataFr = [
     answer: 'Un barrage hydroélectrique',
   },
   {
-    question: 'Qu’elle est la source d'énergie non renouvelable?',
+    question: 'Qu’elle est la source d’énergie non renouvelable?',
     options: [
       'Le vent',
-      'L'eau ',
+      'L’eau ',
       'Le charbon',
       'Le soleil'
     ],
@@ -146,7 +146,7 @@ const quizDataFr = [
       'À éclairer des pièces sans électricités ',
       'À produire de l'énergie'
     ],
-    answer: 'À produire de l'énergie ',
+    answer: 'À produire de l’énergie ',
   },
   {
     question: 'Parmi les options suivantes choisir la bonne réponse :
