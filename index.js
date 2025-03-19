@@ -271,7 +271,7 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = language === 'fr'? `Votre score est de ${score} sur ${quizData.length}!` : `You scored ${score} out of ${quizData.length}!`;
+  resultContainer.innerHTML = language === 'fr' ? `Votre score est de ${score} sur ${quizData.length}!` : `You scored ${score} out of ${quizData.length}!`;
 }
 
 function retryQuiz() {
@@ -294,13 +294,21 @@ function showAnswer() {
 
   let incorrectAnswersHtml = '';
   for (let i = 0; i < incorrectAnswers.length; i++) {
-    incorrectAnswersHtml += `
+    incorrectAnswersHtml += language === 'en' ? `
       <p>
         <strong>Question:</strong> ${incorrectAnswers[i].question}<br>
         <strong>Your Answer:</strong> <span style="color: red">${incorrectAnswers[i].incorrectAnswer}</span><br>
         <strong>Correct Answer:</strong> <span style="color: green">${incorrectAnswers[i].correctAnswer} </span>
       </p>
-    `;
+    ` 
+      : 
+      `
+      <p>
+        <strong>Question :</strong> ${incorrectAnswers[i].question}<br>
+        <strong>Votre reponse :</strong> <span style="color: red">${incorrectAnswers[i].incorrectAnswer}</span><br>
+        <strong>La bonne réponse :</strong> <span style="color: green">${incorrectAnswers[i].correctAnswer} </span>
+      </p>
+    ` ;
   }
 
   resultContainer.innerHTML = `
