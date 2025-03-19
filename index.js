@@ -1,4 +1,4 @@
-var quizData = [];
+fvar quizData = [];
 const quizDataEn = [
   {
     question: 'What is the capital of France?',
@@ -310,12 +310,19 @@ function showAnswer() {
       </p>
     ` ;
   }
-
-  resultContainer.innerHTML = `
+  
+  resultContainer.innerHTML = language === 'en' ? 
+    `
     <p>You scored ${score} out of ${quizData.length}!</p>
     <p>Incorrect Answers:</p>
     ${incorrectAnswersHtml}
+  ` : 
+  `
+    <p>Votre score est de ${score} sur ${quizData.length}!</p>
+    <p>Réponses incorrectes :</p>
+    ${incorrectAnswersHtml}
   `;
+    
 }
 
 submitButton.addEventListener('click', checkAnswer);
