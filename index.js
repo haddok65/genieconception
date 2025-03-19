@@ -294,8 +294,8 @@ function showAnswer() {
     incorrectAnswersHtml += `
       <p>
         <strong>Question:</strong> ${incorrectAnswers[i].question}<br>
-        <span style="color: red">Your Answer:</span> ${incorrectAnswers[i].incorrectAnswer}<br>
-        <span style="color: green">Correct Answer:</span> ${incorrectAnswers[i].correctAnswer}
+        <strong>Your Answer:</strong> <span style="color: green">${incorrectAnswers[i].incorrectAnswer}</span><br>
+        <strong>Correct Answer:</strong> <span style="color: green">${incorrectAnswers[i].correctAnswer} </span>
       </p>
     `;
   }
