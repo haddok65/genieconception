@@ -144,7 +144,7 @@ const quizDataFr = [
       'À stoker de l’eau',
       'À produire de la chaleur',
       'À éclairer des pièces sans électricités ',
-      'À produire de l'énergie'
+      'À produire de l’énergie'
     ],
     answer: 'À produire de l’énergie ',
   },
