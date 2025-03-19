@@ -74,7 +74,7 @@ const quizDataFr = [
       'Une énergie qui se renouvelle naturellement et dont la source est inépuisable à l’échelle humaine', 
       'Une énergie produite par le charbon', 
       'Une énergie ne se renouvelle pas naturellement et qui est épuisable à l’échelle humaine', 
-      'Une énergie qui se renouvelle naturellement et dont la source est épuisable à l’échelle humaine.'
+      'Une énergie qui se renouvelle naturellement et dont la source est épuisable à l’échelle humaine'
     ],
     answer: 'Une énergie qui se renouvelle naturellement et dont la source est inépuisable à l’échelle humaine',
   },
@@ -91,9 +91,9 @@ const quizDataFr = [
   {
     question: 'Laquelle de ces pratiques est un exemple d’action écologique ?',
     options: [
-      'Jeter des déchets par terre ',
+      'Jeter des déchets par terre',
       'Éteindre la lumière quand on quitte la pièce',
-      'Utiliser des sacs en plastique à usage unique ',
+      'Utiliser des sacs en plastique à usage unique',
       'Laisser couler de l’eau en se brossant les dents'
     ],
     answer: 'Éteindre la lumière quand on quitte la pièce',
@@ -101,7 +101,7 @@ const quizDataFr = [
   {
     question: 'Choisissez parmi les options suivantes les avantages de l’utilisation des énergies renouvelables?',
     options: [
-      'Elles réduisent les émissions à gaz à effet de serre ',
+      'Elles réduisent les émissions à gaz à effet de serre',
       'Elles produisent des déchets toxiques',
       'Elles entraînent une très grande pollution de l’air',
       'Elles épuisent rapidement les ressources naturelles'
@@ -136,7 +136,7 @@ const quizDataFr = [
       'Le charbon',
       'Le soleil'
     ],
-    answer: 'Le charbon ',
+    answer: 'Le charbon',
   },
   {
     question: 'À quoi sert une mini dynamo?',
@@ -146,13 +146,13 @@ const quizDataFr = [
       'À éclairer des pièces sans électricités ',
       'À produire de l’énergie'
     ],
-    answer: 'À produire de l’énergie ',
+    answer: 'À produire de l’énergie',
   },
   {
     question: 'Une dynamo à manivelle transforme l’énergie (a) en énergie (b) ',
     options: [
-      '(a) Mécanique, (b) Électrique ',
-      '(a) Thermique, (b) Mécanique ',
+      '(a) Mécanique, (b) Électrique',
+      '(a) Thermique, (b) Mécanique',
       '(a) Électrique, (b) Chimique',
       '(a) Mécanique, (b) Thermique'
     ],
@@ -161,9 +161,9 @@ const quizDataFr = [
   {
     question: 'Dans le principe de fonctionnement d’une dynamo à manivelle, l’élément qui produit l’énergie est : ',
     options: [
-      'Le moteur ',
-      'Les engrenages ',
-      'Les câbles ',
+      'Le moteur',
+      'Les engrenages',
+      'Les câbles',
       'Le support'
     ],
     answer: 'Les engrenages',
