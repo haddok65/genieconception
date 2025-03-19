@@ -196,7 +196,7 @@ function changeLanguage() {
     language = language === 'en'? 'fr' : 'en'
     languageId.innerHTML = language === 'en'? 'Fran&ccedil;ais' : 'English';
     retryButton.innerHTML = language === 'en'? 'Reesayer' : 'Retry';
-    showAnswerButton.innerHTML = language === 'en'? 'Montrez les reponses' : 'Show Answer';
+    showAnswerButton.innerHTML = language === 'en'? 'Montrez les réponses' : 'Show Answer';
     submitButton.innerHTML = language === 'en'? 'Soumettre' : 'Submit';
     displayQuestion();
 }
