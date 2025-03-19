@@ -79,16 +79,106 @@ const quizDataFr = [
     answer: 'Une énergie qui se renouvelle naturellement et dont la source est inépuisable à l’échelle humaine',
   },
   {
-    question: 'FR What is the largest planet in our solar system?',
-    options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-    answer: 'Jupiter',
+    question: 'Parmi les formes d’énergie suivantes, lesquelles sont renouvelables ?',
+    options: [
+      'Énergie solaire et éolienne',
+      'Énergie éolienne et énergie nucléaire',
+      'Énergie nucléaire et énergie fossile',
+      'Énergie fossile et énergie solaire'
+    ],
+    answer: 'Énergie solaire et éolienne',
   },
   {
-    question: 'FR Which country won the FIFA World Cup in 2018?',
-    options: ['Brazil', 'Germany', 'France', 'Argentina'],
-    answer: 'France',
+    question: 'Laquelle de ces pratiques est un exemple d’action écologique ?',
+    options: [
+      'Jeter des déchets par terre ',
+      'Éteindre la lumière quand on quitte la pièce',
+      'Utiliser des sacs en plastique à usage unique ',
+      'Laisser couler de l’eau en se brossant les dents'
+    ],
+    answer: 'Éteindre la lumière quand on quitte la pièce',
   },
-
+  {
+    question: 'Choisissez parmi les options suivantes les avantages de l’utilisation des énergies renouvelables?',
+    options: [
+      'Elles réduisent les émissions à gaz à effet de serre ',
+      'Elles produisent des déchets toxiques',
+      'Elles entraînent une très grande pollution de l’air',
+      'Elles épuisent rapidement les ressources naturelles'
+    ],
+    answer: 'Elles réduisent les émissions à gaz à effet de serre',
+  },
+  {
+    question: 'Qu'est-ce que nous pouvons faire pour réduire la consommation d'énergie à la maison?',
+    options: [
+      'Ouvrir la fenêtre quand le chauffage est allumé ',
+      'Éteindre les appareils quand on ne les utilise pas',
+      'Laisser les appareils électriques en veille ',
+      'Utiliser les lampes à incandescence '
+    ],
+    answer: 'Éteindre les appareils quand on ne les utilise pas',
+  },
+  {
+    question: 'Parmi les systèmes suivants, lequel produit de l’énergie renouvelable ?',
+    options: [
+      'Une centrale nucléaire',
+      'Un barrage hydroélectrique',
+      'Une usine de charbon',
+      'Une raffinerie de pétrole'
+    ],
+    answer: 'Un barrage hydroélectrique',
+  },
+  {
+    question: 'Qu’elle est la source d'énergie non renouvelable?',
+    options: [
+      'Le vent',
+      'L'eau ',
+      'Le charbon',
+      'Le soleil'
+    ],
+    answer: 'Le charbon ',
+  },
+  {
+    question: 'À quoi sert une mini dynamo?',
+    options: [
+      'À stoker de l’eau',
+      'À produire de la chaleur',
+      'À éclairer des pièces sans électricités ',
+      'À produire de l'énergie'
+    ],
+    answer: 'À produire de l'énergie ',
+  },
+  {
+    question: 'Parmi les options suivantes choisir la bonne réponse :
+       Une dynamo à manivelle transforme l’énergie (a) en énergie (b) ',
+    options: [
+      '(a) Mécanique, (b) Électrique ',
+      '(a) Thermique, (b) Mécanique ',
+      '(a) Électrique, (b) Chimique  ',
+      '(a) Mécanique, (b) Thermique'
+    ],
+    answer: '(a) Mécanique, (b) Électrique',
+  },
+  {
+    question: 'Dans le principe de fonctionnement d’une dynamo à manivelle, l’élément qui produit l’énergie est : ',
+    options: [
+      'Le moteur ',
+      'Les engrenages ',
+      'Les câbles ',
+      'Le support'
+    ],
+    answer: 'Les engrenages',
+  },
+  {
+    question: 'Dans le principe de fonctionnement d’une dynamo à manivelle, l’élément qui produit l’énergie est : ',
+    options: [
+      'Un mouvement linéaire (en ligne droite)',
+      'Un mouvement rotatif (en tournant)  ',
+      'Un mouvement vertical (de haut en bas)  ',
+      'Un mouvement statique (sans bouger)'
+    ],
+    answer: 'Un mouvement rotatif (en tournant)',
+  },
 ];
 
 const quizContainer = document.getElementById('quiz');
