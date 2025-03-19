@@ -69,9 +69,14 @@ const quizDataEn = [
 
 const quizDataFr = [
   {
-    question: 'Quelle est la capitale de la France?',
-    options: ['Paris', 'London', 'Berlin', 'Madrid'],
-    answer: 'Paris',
+    question: 'Qu’est-ce que l’énergie renouvelable ?',
+    options: [
+      'Une énergie qui se renouvelle naturellement et dont la source est inépuisable à l’échelle humaine', 
+      'Une énergie produite par le charbon', 
+      'Une énergie ne se renouvelle pas naturellement et qui est épuisable à l’échelle humaine', 
+      'Une énergie qui se renouvelle naturellement et dont la source est épuisable à l’échelle humaine.'
+    ],
+    answer: 'Une énergie qui se renouvelle naturellement et dont la source est inépuisable à l’échelle humaine',
   },
   {
     question: 'FR What is the largest planet in our solar system?',
