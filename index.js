@@ -271,7 +271,7 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!`;
+  resultContainer.innerHTML = language === 'fr'? `Votre score est de ${score} sur ${quizData.length}! : `You scored ${score} out of ${quizData.length}!`;
 }
 
 function retryQuiz() {
