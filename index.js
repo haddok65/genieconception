@@ -194,7 +194,10 @@ let incorrectAnswers = [];
 
 function changeLanguage() {
     language = language === 'en'? 'fr' : 'en'
-     languageId.innerHTML = language === 'en'? 'Fran&ccedil;ais' : 'English';
+    languageId.innerHTML = language === 'en'? 'Fran&ccedil;ais' : 'English';
+    retryButton.innerHTML = language === 'en'? 'Reesayer' : 'Retry';
+    showAnswerButton.innerHTML = language === 'en'? 'Montrez les reponses' : 'Show Answer';
+    submitButton.innerHTML = language === 'en'? 'Soumettre' : 'Submit';
     displayQuestion();
 }
 
