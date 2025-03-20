@@ -208,7 +208,7 @@ const quizDataFr = [
     question: ' Dans un système d’engrenages, des roues de différentes tailles s’entrainent en rotation depuis le mouvement initial de la manivelle.
       Le nombre de dents et la taille des roues influencent la vitesse de sortie qui sera transmise au moteur pour la production d’électricité. 
       Lorsqu’une roue plus grande avec moins de dents entraine en rotation une roue plus petite avec plus de dents, la vitesse augmente, et l’inverse diminue la vitesse.
-      3-	Comment se comportera la vitesse si nous avons deux roues du même nombre de dents ? ',
+      Comment se comportera la vitesse si nous avons deux roues du même nombre de dents ? ',
     options: [
       'Augmente',
       'Diminue',
