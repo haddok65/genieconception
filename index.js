@@ -118,7 +118,7 @@ const quizDataEn = [
       'Vertical motion (up and down)',
       'There is no correct answer'
     ],
-    answer: ')',
+    answer: 'Rotational motion (turning)',
   },
   {
     question: 'In a gear system, wheels of different sizes rotate based on the initial movement of the crank. The number of teeth and the size of the wheels influence the output speed, which is transmitted to the motor for electricity production. When a larger wheel with fewer teeth drives a smaller wheel with more teeth, the speed increases, and vice versa, reducing the speed.How can we maximize the output speed with gears of (a) 30 teeth and (b) 60 teeth?',
