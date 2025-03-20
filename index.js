@@ -204,7 +204,7 @@ const quizDataFr = [
       'Augmente',
       'Diminue',
       'Cela n’a pas d’importance',
-      'Rester pareille'
+      'Reste pareille'
     ],
     answer: 'Reste pareille',
   },
