@@ -178,6 +178,47 @@ const quizDataFr = [
     ],
     answer: 'Un mouvement rotatif (en tournant)',
   },
+  {
+    question: ' Dans un système d’engrenages, des roues de différentes tailles s’entrainent en rotation depuis le mouvement initial de la manivelle.
+      Le nombre de dents et la taille des roues influencent la vitesse de sortie qui sera transmise au moteur pour la production d’électricité. 
+      Lorsqu’une roue plus grande avec moins de dents entraine en rotation une roue plus petite avec plus de dents, la vitesse augmente, et l’inverse diminue la vitesse.
+      Comment maximiser la vitesse de sortie avec des roues de (a) 30 dents et (b) 60 dents ? ',
+    options: [
+      '(a) entraine (b)',
+      '(b) entraine (a)',
+      'Cela n’a pas d’importance',
+      'Il n’y a pas de bonne réponse'
+    ],
+    answer: '(b) entraine (a)',
+  },
+  {
+    question: ' Dans un système d’engrenages, des roues de différentes tailles s’entrainent en rotation depuis le mouvement initial de la manivelle.
+      Le nombre de dents et la taille des roues influencent la vitesse de sortie qui sera transmise au moteur pour la production d’électricité. 
+      Lorsqu’une roue plus grande avec moins de dents entraine en rotation une roue plus petite avec plus de dents, la vitesse augmente, et l’inverse diminue la vitesse.
+      Comment minimiser la vitesse de sortie avec des roues de (a) 20 dents et (b) 7 dents? ',
+    options: [
+      '(a) entraine (b)',
+      '(b) entraine (a)',
+      'Cela n’a pas d’importance',
+      'Il n’y a pas de bonne réponse'
+    ],
+    answer: '(a) entraine (b)',
+  },
+   {
+    question: ' Dans un système d’engrenages, des roues de différentes tailles s’entrainent en rotation depuis le mouvement initial de la manivelle.
+      Le nombre de dents et la taille des roues influencent la vitesse de sortie qui sera transmise au moteur pour la production d’électricité. 
+      Lorsqu’une roue plus grande avec moins de dents entraine en rotation une roue plus petite avec plus de dents, la vitesse augmente, et l’inverse diminue la vitesse.
+      3-	Comment se comportera la vitesse si nous avons deux roues du même nombre de dents ? ',
+    options: [
+      'Augmente',
+      'Diminue',
+      'Cela n’a pas d’importance',
+      'Rester pareille'
+    ],
+    answer: 'Reste pareille',
+  },
+  
+  
 ];
 
 const quizContainer = document.getElementById('quiz');
