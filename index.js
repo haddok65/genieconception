@@ -1,70 +1,156 @@
 var quizData = [];
 const quizDataEn = [
   {
-    question: 'What is the capital of France?',
-    options: ['Paris', 'London', 'Berlin', 'Madrid'],
-    answer: 'Paris',
-  },
-  {
-    question: 'What is the largest planet in our solar system?',
-    options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-    answer: 'Jupiter',
-  },
-  {
-    question: 'Which country won the FIFA World Cup in 2018?',
-    options: ['Brazil', 'Germany', 'France', 'Argentina'],
-    answer: 'France',
-  },
-  {
-    question: 'What is the tallest mountain in the world?',
-    options: ['Mount Everest', 'K2', 'Kangchenjunga', 'Makalu'],
-    answer: 'Mount Everest',
-  },
-  {
-    question: 'Which is the largest ocean on Earth?',
+    question: 'What is renewable energy ?',
     options: [
-      'Pacific Ocean',
-      'Indian Ocean',
-      'Atlantic Ocean',
-      'Arctic Ocean',
+      'Energy that naturally renews itself and whose source is inexhaustible on a human scale',
+      'Energy produced by coal',
+      'Energy that does not renew naturally and is exhaustible on a human scale',
+      'Energy that naturally renews itself but whose source is exhaustible on a human scale'
     ],
-    answer: 'Pacific Ocean',
+    answer: 'Energy that naturally renews itself and whose source is inexhaustible on a human scale',
   },
   {
-    question: 'What is the chemical symbol for gold?',
-    options: ['Au', 'Ag', 'Cu', 'Fe'],
-    answer: 'Au',
-  },
-  {
-    question: 'Who painted the Mona Lisa?',
+    question: ' Among the following energy sources, which ones are renewable?',
     options: [
-      'Pablo Picasso',
-      'Vincent van Gogh',
-      'Leonardo da Vinci',
-      'Michelangelo',
+      'Solar energy and wind energy',
+      'Wind energy and nuclear energy',
+      'Nuclear energy and fossil energy',
+      'Fossil energy and solar energy'
     ],
-    answer: 'Leonardo da Vinci',
+    answer: 'Solar energy and wind energy',
   },
   {
-    question: 'Which planet is known as the Red Planet?',
-    options: ['Mars', 'Venus', 'Mercury', 'Uranus'],
-    answer: 'Mars',
-  },
-  {
-    question: 'What is the largest species of shark?',
+    question: 'Which of these practices is an example of an ecological action?',
     options: [
-      'Great White Shark',
-      'Whale Shark',
-      'Tiger Shark',
-      'Hammerhead Shark',
+      'Throwing trash on the ground',
+      'Turning off the light when leaving the room',
+      'Using single-use plastic bags',
+      'Letting water run while brushing your teeth'
     ],
-    answer: 'Whale Shark',
+    answer: 'Turning off the light when leaving the room',
   },
   {
-    question: 'Which animal is known as the King of the Jungle?',
-    options: ['Lion', 'Tiger', 'Elephant', 'Giraffe'],
-    answer: 'Lion',
+    question: 'Choose the advantage of using renewable energies:',
+    options: [
+      'They reduce greenhouse gas emissions',
+      'They produce toxic waste',
+      'They cause severe air pollution',
+      'They rapidly deplete natural resources'
+    ],
+    answer: 'They reduce greenhouse gas emissions',
   },
+  {
+    question: 'What can we do to reduce energy consumption at home?',
+    options: [
+      'Open the window while the heater is on',
+      'Turn off appliances when not in use',
+      'Leave electrical devices on standby',
+      'Use incandescent light bulbs',
+    ],
+    answer: 'Turn off appliances when not in use',
+  },
+  {
+    question: 'Which of the following systems produces renewable energy?',
+    options: [
+      'A nuclear power plant',
+      'A hydroelectric dam',
+      'A coal power plant',
+      'An oil refinery'
+    ],
+    answer: 'A hydroelectric dam',
+  },
+  {
+    question: 'Which of the following is a non-renewable energy source?',
+    options: [
+      'Wind',
+      'Water',
+      'Coal',
+      'Solar',
+    ],
+    answer: 'Coal',
+  },
+  {
+    question: 'What is the purpose of a mini dynamo?',
+    options: [
+      'To store water',
+      'To produce heat',
+      'To light rooms without electricity',
+      'To generate energy'
+    ],
+    answer: 'To generate energy',
+  },
+  {
+    question: 'Why is a dynamo environmentally friendly?',
+    options: [
+      'Because it uses fuel',
+      'Because it produces too much electricity',
+      'Because it generates polluting waste',
+      'Because it relies on mechanical energy instead of fossil fuels',
+    ],
+    answer: 'Because it relies on mechanical energy instead of fossil fuels',
+  },
+  {
+    question: 'A hand-crank dynamo transforms (a) energy into (b) energy',
+    options: [
+      '(a) Mechanical, (b) Electrical',
+      '(a) Thermal, (b) Mechanical',
+      '(a) Electrical, (b) Chemical',
+      '(a) Mechanical, (b) Thermal'
+    ],
+    answer: '(a) Mechanical, (b) Electrical',
+  },
+  {
+    question: 'In the working principle of a hand-crank dynamo, which component produces energy?',
+    options: [
+      'The motor',
+      'The gears',
+      'The cables',
+      'The support structure'
+    ],
+    answer: 'The gears',
+  },
+  {
+    question: 'What type of motion is required to operate a dynamo?',
+    options: [
+      'Linear motion (in a straight line)',
+      'Rotational motion (turning)',
+      'Vertical motion (up and down)',
+      'There is no correct answer'
+    ],
+    answer: ')',
+  },
+  {
+    question: 'In a gear system, wheels of different sizes rotate based on the initial movement of the crank. The number of teeth and the size of the wheels influence the output speed, which is transmitted to the motor for electricity production. When a larger wheel with fewer teeth drives a smaller wheel with more teeth, the speed increases, and vice versa, reducing the speed.How can we maximize the output speed with gears of (a) 30 teeth and (b) 60 teeth?',
+    options: [
+      '(a) drives (b)',
+      '(b) drives (a)',
+      'It doesn’t matter',
+      'Static motion (no movement)'
+    ],
+    answer: '(b) drives (a)',
+  },
+  {
+    question: 'In a gear system, wheels of different sizes rotate based on the initial movement of the crank. The number of teeth and the size of the wheels influence the output speed, which is transmitted to the motor for electricity production. When a larger wheel with fewer teeth drives a smaller wheel with more teeth, the speed increases, and vice versa, reducing the speed.How can we minimize the output speed with gears of (a) 20 teeth and (b) 7 teeth?',
+    options: [
+      '(a) drives (b)',
+      '(b) drives (a)',
+      'It doesn’t matter',
+      'Static motion (no movement)'
+    ],
+    answer: '(a) drives (b)',
+  },
+  {
+    question: 'In a gear system, wheels of different sizes rotate based on the initial movement of the crank. The number of teeth and the size of the wheels influence the output speed, which is transmitted to the motor for electricity production. When a larger wheel with fewer teeth drives a smaller wheel with more teeth, the speed increases, and vice versa, reducing the speed.What happens to the speed if we have two gears with the same number of teeth?',
+    options: [
+      'It increases',
+      'It decreases',
+      'It doesn’t matter',
+      'It stays the same'
+    ],
+    answer: 'It stays the same',
+  },
+  
 ];
 
 const quizDataFr = [
@@ -147,6 +233,16 @@ const quizDataFr = [
       'À produire de l’énergie'
     ],
     answer: 'À produire de l’énergie',
+  },
+    {
+    question: 'Pourquoi la dynamo est-elle écologique ?',
+    options: [
+      'Parce qu’elle utilise du carburant',
+      'Parce qu’elle produit trop d’électricité',
+      'Parce qu’elle génère des déchets polluants',
+      'Parce qu’elle fonctionne avec de l’énergie mécanique au lieu des combustibles fossiles'
+    ],
+    answer: 'Parce qu’elle fonctionne avec de l’énergie mécanique au lieu des combustibles fossiles',
   },
   {
     question: 'Une dynamo à manivelle transforme l’énergie (a) en énergie (b) ',
