@@ -323,7 +323,7 @@ let incorrectAnswers = [];
 function changeLanguage() {
     language = language === 'en'? 'fr' : 'en'
     languageId.innerHTML = language === 'en'? 'Fran&ccedil;ais' : 'English';
-    retryButton.innerHTML = language === 'fr'? 'Reesayer' : 'Retry';
+    retryButton.innerHTML = language === 'fr'? 'Réessayer' : 'Retry';
     showAnswerButton.innerHTML = language === 'fr'? 'Montrez les réponses' : 'Show Answer';
     submitButton.innerHTML = language === 'fr'? 'Soumettre' : 'Submit';
     displayQuestion();
@@ -433,7 +433,7 @@ function showAnswer() {
       `
       <p>
         <strong>Question :</strong> ${incorrectAnswers[i].question}<br>
-        <strong>Votre reponse :</strong> <span style="color: red">${incorrectAnswers[i].incorrectAnswer}</span><br>
+        <strong>Votre réponse :</strong> <span style="color: red">${incorrectAnswers[i].incorrectAnswer}</span><br>
         <strong>La bonne réponse :</strong> <span style="color: green">${incorrectAnswers[i].correctAnswer} </span>
       </p>
     ` ;
